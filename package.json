@@ -1,0 +1,20 @@
+{
+  "name": "mediaapi",
+  "version": "1.0.0",
+  "description": "api's used to download social media videos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hamza",
+  "license": "ISC",
+  "dependencies": {
+    "@tobyg74/tiktok-api-dl": "^1.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0",
+    "nodemon": "^3.0.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
