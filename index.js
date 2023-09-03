@@ -5,7 +5,7 @@ import { TiktokDL } from "@tobyg74/tiktok-api-dl";
 import ytdl from "ytdl-core";
 
 const app = express();
-app.use(express.cors());
+app.use(cors());
 app.use(json());
 
 app.listen(5000, () => {
